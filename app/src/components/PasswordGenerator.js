@@ -14,11 +14,11 @@ function PasswordGenerator() {
         let nombres = '0123456789';
         let specs = '?,.;/:+=[](){}-_@%^£#€';
 
-        let result = ' ' ;
-        let result_one = ' ' ;
-        let result_two = ' ' ;
-        let result_three = ' ' ;
-        let result_four = ' ' 
+        let result = '' ;
+        let result_one = '' ;
+        let result_two = '' ;
+        let result_three = '' ;
+        let result_four = '' 
         
         const miniLength = miniscules.length;
         const majlength = majuscules.length
