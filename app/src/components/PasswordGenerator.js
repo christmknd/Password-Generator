@@ -53,7 +53,7 @@ function PasswordGenerator() {
             <h2>Mot de passe</h2>
             <button onClick={generatePassword} type="submit">Generer</button>
         </div>
-        <div className="result">
+        <div>
             <p data-testid='password'>{password}</p>
         </div>
     </div>
