@@ -34,3 +34,4 @@ jobs:
         with:
           browser: chrome
           command: npx cypress run
+          working-directory: app/
