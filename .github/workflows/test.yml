@@ -34,5 +34,5 @@ jobs:
         with:
           browser: chrome
           working-directory: app/
-          build: npm run build
           start: npm start
+          command: npx cypress run
